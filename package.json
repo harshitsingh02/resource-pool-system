@@ -2,10 +2,10 @@
   "name": "resource-pool-system",
   "version": "1.0.0",
   "scripts": {
-    "start": "echo 'Starting via Procfile'",  // This is a placeholder—Procfile overrides it
-    "build": "echo 'Build placeholder'"       // Not needed, but helps Railpack recognize
+    "start": "echo 'Starting via Procfile'",  
+    "build": "echo 'Build placeholder'"       
   },
   "engines": {
-    "node": ">=16.0.0"  // Critical: Tells Railpack this is a Node.js app & version
+    "node": ">=16.0.0"  
   }
 }
