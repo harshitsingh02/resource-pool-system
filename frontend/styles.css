@@ -1,0 +1,47 @@
+/* (Same as in original, kept concise; add full if needed) */
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.tabs {
+  display: flex;
+}
+.tab-btn {
+  background: #ddd;
+  border: none;
+  padding: 10px;
+}
+.active {
+  background: #007bff;
+  color: white;
+}
+.tab {
+  display: block;
+}
+.form {
+  margin: 20px;
+}
+.btn {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+.resource {
+  background: white;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+}
+.status-available {
+  color: green;
+}
+.status-allocated {
+  color: red;
+}
+/* Add mobile responsiveness with @media queries */
