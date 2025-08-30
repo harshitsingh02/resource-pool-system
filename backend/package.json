@@ -1,11 +1,12 @@
 {
-  "name": "backend",
+  "name": "resource-pool-system",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "echo 'Starting via Procfile'",  // Placeholder; Procfile handles real start
+    "build": "echo 'Build placeholder'"       // Not needed, but helps detection
+  },
+  "engines": {
+    "node": ">=16.0.0"  // Tell Railpack it's Node.js & version
   },
   "keywords": [],
   "author": "",
@@ -24,3 +25,5 @@
     "nodemon": "^3.1.10"
   }
 }
+
+
